@@ -1,6 +1,9 @@
 # Responsive-Web-Designing-Fundamentals
-This repository tracks the progress of certification tasks and labs provided via FreeCodeCamp's Responsive Web Designing Certification. 
 
+## Background
+- This repository tracks the progress of certification tasks and labs provided via FreeCodeCamp's Responsive Web Designing Certification. 
+- This course teaches the fundamentals of HTML and CSS, including modern layout, design, accessibility, and responsive web development. 
+- Goal is to build practical projects and gain the skills to create professional, user-friendly webpages.
 ## Languages Used
 - HTML
 - CSS
