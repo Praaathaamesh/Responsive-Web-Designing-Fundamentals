@@ -14,3 +14,6 @@
 
 >[!IMPORTANT]
 > Make sure to fork and reference this repository for a further documented use on this site.
+
+## Sources
+[FreeCodeCamp Responsive Web Designing Certification](https://www.freecodecamp.org/learn/responsive-web-design-v9#lab-debug-camperbots-profile-page)
