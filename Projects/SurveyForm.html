@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!---Header-->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+<!---Body-->
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda architecto ipsum quis necessitatibus adipisci, perspiciatis alias in nobis ex enim nihil esse perferendis, reiciendis, beatae reprehenderit minus nisi aut? Qui.</p>
+    
+    <!--Form element-->
+    <form id="survey-form">
+        
+        <fieldset><!--Input fields-->
+            <label for="name" id="name-label">Name: </label>
+            <input required name="name" id="name" type="text" placeholder="John Doe"><br>
+            <label for="email" id="email-label">Email: </label>
+            <input required name="email" id="email" type="email" placeholder="johndoe76@email.com"><br>
+            <label for="number" id="number-label">Number: </label>
+            <input required name="number" id="number" type="number" min="3" max="100" placeholder="69"><br>
+        </fieldset><br>
+
+        <fieldset><!--Dropdown fields-->
+            <legend>Were you a previous member of this organisation?</legend>
+            <select id="dropdown">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+        </fieldset><br>
+
+        <fieldset><!--Radio fields-->
+            <legend>Select two-factor authentication method: </legend>
+            <input type="radio" id="phone" name="auth" value="phone">
+            <label for="phone">Contact</label>
+            <input type="radio" id="secondary-fax" name="auth" value="fax">
+            <label for="secondary-fax">Additional Fax</label>
+            <input type="radio" id="address" name="auth" value="address">
+            <label for="address">Home Address</label>
+        </fieldset><br>
+        
+        <fieldset><!--Checkbox fields-->
+            <legend>Select all the IT domains which you have worked for:</legend>
+            <input type="checkbox" id="frontend" value="Frontend">
+            <label for="frontend">Frontend</label>
+            <input type="checkbox" id="backend" value="Backend">
+            <label for="frontend">Backend</label>
+            <input type="checkbox" id="service" value="Service">
+            <label for="frontend">Service</label>
+        </fieldset><br>
+
+        <textarea>Any Suggestions?</textarea><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
