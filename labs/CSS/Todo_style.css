@@ -1,0 +1,24 @@
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:link{
+    color: salmon;
+}
+
+a:focus{
+    color: orange;
+    outline: auto;
+}
+
+a:active{
+    color: plum;
+}
+
+a{
+    text-decoration: none;
+}
