@@ -1,0 +1,28 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.color-box{
+    width: 100px;
+    height: 100px;
+}
+
+.color1{
+    background-color: #7E4B5C;
+}
+
+.color2{
+    background-color: rgb(45, 70, 70);
+}
+
+.color3{
+    background-color: gray ;
+}
+
+.color4{
+    background-color:hsl(183, 33%, 68%) ;
+}
+
+.color5{
+    background-color: greenyellow;
+}
