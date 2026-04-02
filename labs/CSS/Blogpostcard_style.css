@@ -1,3 +1,40 @@
 a{
     background-color: hotpink;
 }
+
+body{
+    background-color: slateblue;
+}
+
+.blog-post-card{
+    background-color: white;
+    width: 20px;
+    text-align: justify;
+    border-radius: 12px;
+}
+
+.post-img{
+    width: 100%;
+    border-bottom:4px solid red;
+}
+
+.post-title, .post-excerpt{
+    color: aquamarine;
+    margin: auto;
+}
+
+.read-more{
+    color: yellow;
+    margin: 12px 12px 12px 12px;
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+    border-radius:12px;
+}
+
+.read-more:hover{
+    background-color: deeppink;
+}
+
+.post-content{
+  padding:12px 12px 12px 12px;
+}
